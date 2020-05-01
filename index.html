@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Jonathans Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -11,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
   <body>
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <a class="navbar-brand" href="#">Home</a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
@@ -26,9 +27,21 @@
             </li>
         </div>
       </nav>
-    <h1>Hi und welcome on my Website!</h1>
-    <div class="container">
-      <p>This is my first try to build a website.</p>
+    <div class="jumbotron">
+      <h1 class="display-4">Hello, mate!</h1>
+      <p class="lead">Nice to have you here on my demopage. I will give some brief informations about myself on the additional sites. Feel free to check them out.</p>
+      <hr class="my-4">
+      <p>I use some different styles to make the site look fancy even though I dont have any ideas what to write about.</p>
+      <a class="btn btn-secondary btn-lg" href="#" role="button">Finance</a>
+      <a class="btn btn-secondary btn-lg" href="#" role="button">Coding</a>
+      <a class="btn btn-secondary btn-lg" href="#" role="button">Sports</a>
     </div>
+    <div class="image-wrapp">
+      <img src="img/pic1.jpg" class="rounded-lg w-50" alt="baseball">
+      <img src="img/pic2.jpg" class="rounded-lg float-right w-50" alt="bridge">
+    </div>
+    <footer class="card-footer" id="footer-bottom">
+      <p>© 2020 and beyond by averageronny</p>
+    </footer>
   </body>
 </html>

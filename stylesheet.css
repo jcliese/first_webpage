@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(255, 240, 231);
 }
 
 nav {
@@ -10,4 +10,34 @@ h1 {
     text-align: center;
     color: coral;
     margin-bottom: 2%;
+}
+
+@media (min-width: 800px) {
+    .jumbotron {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .image-wrapp {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.image-wrapp {
+    margin-top: 0px;
+}
+
+@media (min-width: 800px) {
+    #footer-bottom {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
 }
