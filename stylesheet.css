@@ -27,6 +27,16 @@ h1 {
     }
 }
 
+#home-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+.redirect-links {
+    flex-grow: 1;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 .jumbotron {
     margin-bottom: 0px;
 }
