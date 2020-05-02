@@ -131,3 +131,17 @@ h1 {
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  
+  @media (min-width: 800px) {
+    .table-striped {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+.finance-card {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
