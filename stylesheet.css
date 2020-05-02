@@ -1,0 +1,149 @@
+.finance-card {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+html body {
+  background-color: #fff0e7;
+  padding-top: 60px;
+}
+
+@media (max-width: 979px) {
+  body {
+    padding-top: 60px;
+  }
+}
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -42px;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+nav {
+  background-color: #BCBCBE;
+}
+
+.navbar-collapse.collapse.in {
+  display: block !important;
+}
+
+h1 {
+  text-align: center;
+  color: coral;
+  margin-bottom: 2%;
+}
+
+@media (min-width: 800px) {
+  .jumbotron {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2%;
+  }
+}
+@media (min-width: 800px) {
+  .image-wrapp {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+#home-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.redirect-links {
+  flex-grow: 1;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+}
+
+.image-wrapp {
+  margin-top: 0px;
+}
+
+@media (min-width: 800px) {
+  .site-footer {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+.site-footer, .page-wrap:after {
+  height: 42px;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.card-deck {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  padding: 0;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  .table-striped {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+.finance-card {
+  width: 60%;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */
