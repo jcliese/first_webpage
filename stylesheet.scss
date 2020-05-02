@@ -1,3 +1,10 @@
+$nav-color: #BCBCBE;
+
+%outer-margin {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 * {
     margin: 0;
   }
@@ -6,10 +13,13 @@ html, body {
     height: 100%;
   }
 
-body {
-    background-color: rgb(255, 240, 231); 
-    padding-top: 60px;
+html {
+  body {
+      background-color: rgb(255, 240, 231); 
+      padding-top: 60px;
+  }
 }
+
 @media (max-width: 979px) {
     body {
       padding-top: 60px;
@@ -27,7 +37,7 @@ body {
   }
 
 nav {
-    background-color: #BCBCBE;
+    background-color: $nav-color;
 }
 
 .navbar-collapse.collapse.in {
@@ -141,7 +151,6 @@ h1 {
 }
 
 .finance-card {
+  @extend %outer-margin;
     width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
 }
