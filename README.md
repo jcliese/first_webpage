@@ -6,4 +6,4 @@ Hi this is a small website to improve my **HTML/CSS** skills.
 
 
 ### Structure
-The website has 4 pages. The __Home__ page, the __Finance__ page, the __Coding__ page and the __Sports__ page. Moreover it has a CSS file.
+The website has 4 pages. The _Home_ page, the _Finance__ page, the _Coding_ page and the _Sports_ page. Moreover it has a CSS file.
